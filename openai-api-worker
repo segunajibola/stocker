@@ -21,6 +21,7 @@ export default {
       console.log("Raw body:", rawBody);
 
       let messages = [];
+      //
       try {
         messages = JSON.parse(rawBody);
       } catch {
